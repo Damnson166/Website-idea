@@ -1,0 +1,442 @@
+* {
+	margin: 0px;
+	margin-right: 0px;
+	padding: 0px;
+	font-family: Verdana;
+}
+body {
+	overflow-x: hidden;
+}
+
+header {
+	display: grid;
+	height: 20px;
+	width: 100%;
+	background-color: #01142f;
+	color: white;
+	padding: 20px;
+	position: relative;
+	grid-template-columns: 30% 40% 30%;
+	padding-left: 70px;
+	grid-column-gap: 1px;
+}
+
+.sociable {
+	display: grid;
+	grid-template-columns: 15% 65% 20%;
+	grid-column-gap: 4.7em;
+	height: 40px;
+	padding: 40px;
+	margin-right: 40px;
+	margin: auto;
+}
+
+a.ssulki {
+	color: black;
+	margin: 15px;
+	padding: 10px;
+	text-decoration: none;
+	font-size: 18px;
+	font-family: Arial, sans-serif;
+}
+a.ssulki:hover {
+	color: #0351c1;
+}
+
+a.button123 {
+	background-color: #0351c1;
+	color: white;
+	border: none;
+	background: #0351c1;
+	padding: 0.6rem 1.5rem;
+	text-decoration: none;
+	font-size: 15px;
+	border-radius: 20px;
+	text-align: center;
+	cursor: pointer;
+	font-weight: bold;
+}
+a.button123:hover {
+	background-color: #000080;
+}
+
+#main {
+	height: 700px;
+	width: 100%;
+	background-image: url("img/landing-trucking-slider-2.jpg");
+}
+
+a.semi-transparent-button {
+	position: relative;
+	display: block;
+	max-width: 180px;
+	width: 100%;
+	margin: 30px auto 0;
+	padding: 14px 15px;
+	border: 1px solid #fff;
+	background: transparent;
+	color: #ffff;
+	text-align: center;
+	text-decoration: none;
+	text-transform: uppercase;
+	overflow: hidden;
+	letter-spacing: 0.08em;
+	text-shadow: 0 0 1px rgba(0, 0, 0, 0.2), 0 1px 0 rgba(0, 0, 0, 0.2);
+	-webkit-transition: all 0.3s ease;
+	-moz-transition: all 0.3s ease;
+	-o-transition: all 0.3s ease;
+	transition: all 0.3s ease;
+	margin-right: 150px;
+	border-radius: 20px;
+	border: 2px solid;
+}
+
+a.semi-transparent-button:hover {
+	color: #0351c1;
+}
+
+#services {
+	height: 50px;
+	width: 100%;
+	text-align: center;
+	padding-top: 50px;
+	font-size: 24px;
+	margin-top: 30px;
+}
+
+.form1 {
+	color: white;
+	font-family: Arial, sans-serif;
+	padding: 225px;
+	padding-left: 150px;
+	width: 300px;
+	margin-left: 41px;
+}
+.form1 > .safety {
+	font-size: 32px;
+}
+.form1 > .customers {
+	margin-top: 23px;
+}
+
+.quote {
+	display: block;
+	height: 400px;
+	background-color: white;
+	border-radius: 20px;
+	width: 300px;
+	position: absolute;
+	top: 15em;
+	right: 10em;
+	padding-top: 30px;
+	padding-left: 20px;
+	font: sans-serif;
+	font-family: sans-serif;
+	margin-top: 30px;
+}
+form > .input1 {
+	width: 270px;
+	padding: 12px 20px;
+	margin: 8px 0;
+	box-sizing: border-box;
+	border-radius: 20px;
+	border: none;
+	background-color: #fafafa;
+}
+
+form > #button1 {
+	background-color: #0351c1;
+	border: none;
+	color: white;
+	padding: 16px 32px;
+	margin: 4px 2px;
+	cursor: pointer;
+	width: 270px;
+	border-radius: 20px;
+	margin-top: 30px;
+	font-weight: bold;
+}
+#button1:hover {
+	background-color: #000080;
+}
+
+#wrapper {
+	height: 900px;
+	width: 100%;
+	position: relative;
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	grid-column-gap: 4em;
+	margin-left: 5%;
+	overflow-x: scroll;
+	overflow-y: hidden;
+}
+
+.photosgrid1 {
+	height: 380px;
+	width: 570px;
+	overflow: hidden;
+}
+
+.photosgrid1 img {
+	transition: 1s;
+	display: block;
+}
+
+.photosgrid1 img:hover {
+	transform: scale(1.1);
+}
+
+#fewwords {
+	display: grid;
+	grid-template-columns: 75% 25%;
+	margin-top: 100px;
+	background-color: #f2f8fd;
+}
+
+#truck7 {
+	height: 400px;
+	width: 700px;
+	padding: 100px;
+}
+
+#truck7 img {
+	transition: 1s;
+}
+
+#truck7 img:hover {
+	transform: scale(1.1);
+}
+
+.cocaine {
+	font-size: 30px;
+	margin-top: 10px;
+}
+.expressprov {
+	font-size: 18px;
+}
+.ournumerous {
+	color: #808080;
+}
+
+a.learnmore {
+	background-color: white;
+	border: none;
+	color: black;
+	font-size: 15px;
+	border-radius: 20px;
+	font-weight: bold;
+	cursor: pointer;
+	text-decoration: none;
+	padding: 0.6rem 1rem;
+}
+a.learnmore:hover {
+	background-color: #000080;
+	color: white;
+}
+
+#pricinghr {
+	background-color: #f2f8fd;
+	text-align: center;
+	font-size: 24px;
+	height: 100px;
+	font-weight: bold;
+}
+#pricing {
+	height: 700px;
+	background-color: #f2f8fd;
+	width: 100%;
+}
+
+.latest {
+	background-color: #f2f8fd;
+	text-align: center;
+	font-size: 24px;
+	height: 100px;
+	font-weight: bold;
+}
+
+#fourvariants {
+	display: grid;
+	grid-template-columns: 25% 25% 25% 25%;
+}
+.goldplatinum {
+	width: 100%;
+	height: 600px;
+	border-radius: 10px;
+	background: linear-gradient(to top, white 88%, #0351c1 12%);
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.goldplatinum > .type {
+	font-weight: bold;
+	color: white;
+	text-align: center;
+	width: 100%;
+	margin-top: 6%;
+	font-size: 26px;
+}
+
+.priceoftype {
+	font-weight: bold;
+	color: black;
+	text-align: center;
+	width: 100%;
+	margin-top: 12%;
+	font-size: 36px;
+}
+
+.pricebutton {
+	background-color: #0351c1;
+	color: white;
+	border: none;
+	background: #0351c1;
+	padding: 0.6rem 1rem;
+	text-decoration: none;
+	font-size: 15px;
+	border-radius: 20px;
+	text-align: center;
+	cursor: pointer;
+	display: grid;
+	margin-top: 30px;
+	width: 100px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 30px;
+}
+
+a.pricebutton:hover {
+	background-color: #000080;
+}
+
+.textinprice {
+	margin-left: 11%;
+	padding-top: 40px;
+}
+
+#dvifoori {
+	height: 800px;
+	width: 100%;
+	background-color: #f2f8fd;
+}
+#divvmeste {
+	display: table;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#foora1 {
+	height: 640px;
+	width: 700px;
+	background-image: url("D:/I am/Webdev/untitled folder/img/landing-trucking-09-868x640.jpg");
+	display: table-cell;
+}
+
+#foora2 {
+	height: 640px;
+	width: 700px;
+	background-image: url("D:/I am/Webdev/untitled folder/img/landing-trucking-10-868x640.jpg");
+	display: table-cell;
+}
+
+#viewallblogposts {
+	margin-top: 70px;
+	margin-left: auto;
+	margin-right: auto;
+	width: 18em;
+	text-align: center;
+}
+
+a#knopkaproposts {
+	text-decoration: none;
+	background-color: #0351c1;
+	color: white;
+	border: none;
+	background: #0351c1;
+	border-color: #0351c1;
+	font-size: 15px;
+	border-radius: 20px;
+	cursor: pointer;
+	padding: 0.5rem 1.5rem;
+	font-weight: bold;
+}
+
+a#knopkaproposts:hover {
+	background-color: #000080;
+}
+
+#privet {
+	color: white;
+	background-color: #0351c1;
+	border-radius: 20px;
+	height: 30px;
+	padding: 1px;
+	text-align: center;
+	width: 220px;
+	border: none;
+}
+
+#foot {
+	height: 125px;
+	width: 100%;
+	background-color: #01142f;
+	color: grey;
+}
+
+#hr2 {
+	margin: 20px 0;
+	padding: 0;
+	height: 0;
+	border-color: blue;
+	background-color: blue;
+	border-top: 1px solid #333;
+	width: 55%;
+}
+
+#hr1111 {
+	margin: auto;
+	width: 5%;
+	border-color: blue;
+}
+
+#h333 {
+	margin: auto;
+	width: 5%;
+	border-color: blue;
+	margin-top: 30px;
+	background-color: blue;
+}
+
+#h444 {
+	margin: auto;
+	width: 5%;
+	border-color: blue;
+	margin-top: 30px;
+	background-color: blue;
+}
+
+footer {
+	display: grid;
+	grid-template-columns: 25% 50% 25%;
+}
+
+#imgfooter1 {
+	padding: 40px;
+}
+
+.allrights {
+	padding: 50px;
+	font-size: 16px;
+	text-align: left;
+}
+
+.ourcontacts {
+	height: 150px;
+	width: 300px;
+	margin: 0 auto;
+}
+
+map {
+	width: 100%;
+	height: 600px;
+}
